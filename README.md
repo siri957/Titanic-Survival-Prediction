@@ -37,13 +37,19 @@ Accuracy
 Mean Squared Error
 R² Score
 Confusion Matrix
+
 Classification Report
 📈 Model Performance
+
 Accuracy: 81.01%
+
 Mean Squared Error: 0.1899
+
 R² Score: 0.2167
+
 Confusion Matrix:
 [[90 15]
+
  [19 55]]
 Classification Report:
               precision    recall  f1-score   support
@@ -54,11 +60,13 @@ Classification Report:
     accuracy                           0.81       179
    macro avg       0.81      0.80      0.80       179
 weighted avg       0.81      0.81      0.81       179
+
 🔍 Observations
 Female passengers had higher survival probability
 First-class passengers had better survival chances
 Age and fare significantly influenced survival prediction
 Logistic Regression performed well as a baseline model
+
 ✅ Conclusion
 
 The Logistic Regression model achieved approximately 81% accuracy, demonstrating strong baseline performance for Titanic survival prediction. The model can be further improved using advanced algorithms such as Random Forest, Decision Trees, or Gradient Boosting.
@@ -70,6 +78,7 @@ NumPy
 Scikit-learn
 Matplotlib
 Seaborn
+
 🚀 How to Run
 python Titanic_Survival_Prediction.py
 
