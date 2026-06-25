@@ -41,6 +41,7 @@ R² Score
 Confusion Matrix
 
 Classification Report
+
 📈 Model Performance
 
 Accuracy: 81.01%
@@ -52,18 +53,19 @@ R² Score: 0.2167
 Confusion Matrix:
 [[90 15]
 
- [19 55]]
+[19 55]]
 
 Classification Report:
-              precision    recall  f1-score   support
+                 precision   recall   f1-score    support
 
-           0       0.83      0.86      0.84       105
-           1       0.79      0.74      0.76        74
-    accuracy                           0.81       179
-
-   macro avg       0.81      0.80      0.80       179
-
-weighted avg       0.81      0.81      0.81       179
+                     0       0.83      0.86      0.84       105
+                     1       0.79      0.74      0.76        74
+  
+  accuracy                               0.81       179
+  
+  macro avg          0.81      0.80      0.80       179
+  
+  weighted avg       0.81      0.81      0.81       179
 
 🔍 Observations
 
