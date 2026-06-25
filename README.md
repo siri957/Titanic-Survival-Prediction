@@ -1,4 +1,5 @@
 🚢 Titanic Survival Prediction Model
+
 📌 Project Overview
 
 This project builds a machine learning model to predict whether a passenger survived the Titanic disaster. The model is implemented using Python and Scikit-learn and follows a complete data science workflow including preprocessing, training, and evaluation.
@@ -11,6 +12,7 @@ Source: Kaggle
 The dataset contains passenger information such as age, gender, ticket class, fare, and embarkation point.
 
 ⚙️ Approach
+
 Data Loading
 Loaded dataset using Pandas
 Data Preprocessing
@@ -64,6 +66,7 @@ Classification Report:
 weighted avg       0.81      0.81      0.81       179
 
 🔍 Observations
+
 Female passengers had higher survival probability
 First-class passengers had better survival chances
 Age and fare significantly influenced survival prediction
@@ -74,6 +77,7 @@ Logistic Regression performed well as a baseline model
 The Logistic Regression model achieved approximately 81% accuracy, demonstrating strong baseline performance for Titanic survival prediction. The model can be further improved using advanced algorithms such as Random Forest, Decision Trees, or Gradient Boosting.
 
 🛠️ Technologies Used
+
 Python
 Pandas
 NumPy
@@ -82,7 +86,9 @@ Matplotlib
 Seaborn
 
 🚀 How to Run
+
 python Titanic_Survival_Prediction.py
 
 👨‍💻 Author
+
 Sirichandana Kota
